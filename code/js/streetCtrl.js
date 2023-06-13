@@ -48,7 +48,7 @@ class streetCtrl{
     }).addTo(mapid);
 
     var berne = L.marker([latBern, lonBern], { icon: RedMarkerIcon }).addTo(mapid);
-  berne.bindPopup("Berne");
+  berne.bindPopup("Bern");
 
   var zurich = L.marker([latZurich, lonZurich], { icon: RedMarkerIcon }).addTo(mapid);
   zurich.bindPopup("Zürich");

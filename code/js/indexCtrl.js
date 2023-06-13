@@ -1,7 +1,7 @@
 /*
-  But :     
-  Auteur : prénom + nom
-  Date :   jj.mm.aaaa / V1.0
+  But :    Projet 307
+   Auteur : Romain Jacquier
+   Date :   05.06.2023 / V1.0 
 */
 
 $().ready(function () {
