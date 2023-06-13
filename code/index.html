@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <!-- 
+   But :    Projet 307
+   Auteur : Romain Jacquier
+   Date :   05.06.2023 / V1.0 
+   -->
+
+  <!-- entête de la page -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script type="text/javascript" src="js/indexCtrl.js"></script>
+    <script type="text/javascript" src="js/httpService.js"></script>
+    <script type="text/javascript" src="js/vueService.js"></script>
+    <script type="text/javascript" src="js/villeSuisseCtrl.js"></script>
+    <script type="text/javascript" src="js/paysMondeCtrl.js"></script>
+    <script type="text/javascript" src="js/sourcesCtrl.js"></script>
+    <script type="text/javascript" src="js/homeCtrl.js"></script>
+
+
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin />
+  <script
+    src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js'
+    integrity='sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw==' crossorigin='anonymous'></script>
+  <script type="text/javascript" src="js/streetCtrl.js"></script>
+
+
+
+    <title>Villes</title>
+  </head>
+
+  <body>
+    <header id="entete">
+      <h1 id="title">Villes</h1>
+    </header>
+
+    <nav>
+      <div>
+        <a onclick="indexCtrl.loadHome()">Home</a>
+      </div>
+
+      <div>
+        <a onclick="indexCtrl.loadVilleSuisse()">Villes Suisse</a>
+      </div>
+      <div>
+        <a onclick="indexCtrl.loadPaysMonde()">Pays Monde</a>
+      </div>
+      <div>
+        <a onclick="indexCtrl.loadSources()">Sources</a>
+      </div>
+    </nav>
+    <div id="view">
+
+    </div>
+    <footer>
+      <p>Romain Jacquier-EMF-Classe-300223</p>
+    </footer>
+  </body>
+</html>
